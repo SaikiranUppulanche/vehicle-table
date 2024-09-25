@@ -14,11 +14,7 @@ This project is a React-based application that displays vehicle data in a table 
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Setup Instructions](#setup-instructions)
-- [Environment Variables](#environment-variables)
 - [How It Works](#how-it-works)
-- [CORS Policy Issue](#cors-policy-issue)
-- [Future Improvements](#future-improvements)
-- [License](#license)
 
 ---
 
@@ -71,4 +67,3 @@ Fetching Data: The app fetches vehicle data from an external API and displays it
 Selecting Rows: Users can select rows using the checkboxes provided for each vehicle entry.
 Phone Number Input: Users can input a valid 10-digit phone number in the input field.
 Send SMS: Clicking the "Send SMS" button sends the selected vehicle data to the entered phone number using the Twilio API.
-CORS: To allow cross-origin requests, CORS headers are included in the Twilio Function that handles SMS sending.
